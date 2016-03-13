@@ -6,17 +6,35 @@ body {
     padding-bottom: 20px;
 }
 
-blockquote {
-  float: right;
-  width: 300px;
-  margin-right:150px;
-  margin-top: -100px;
+#social-media {
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.features {
-  float: right;
-  text-decoration: none;
-  margin-left:50px;
+#social-media li {
+  display: inline-block;
+}
+
+.features h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+/*
+@media only screen and (min-width: 990px) {
+  .features li {
+    font-size: 12pt;
+  }
+*/
+  
+  .features h2 {
+    font-size: 16pt;
+  }
+}
+
+#testimonials {
+  margin-top: 50px;
 }
 
 h2 {
@@ -28,11 +46,15 @@ ul {
 }
 
 footer {
+  text-align: center;
   background-color: lightgray;
-  padding: 20px;
-  margin-top: 100px;
-  margin: auto;
-  width: 1500px;
-  clear: both;
-  
+  width: 100%;
+  height: 50px;
 }
+
+footer p {
+  font-size 18pt;
+  padding: 15px;
+  background-color: lightgray;
+}
+
